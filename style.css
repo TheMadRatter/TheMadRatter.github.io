@@ -1,13 +1,14 @@
-body {
+body, html {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #808080;
-  color: #808080;
-  padding: 0px;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #595959 !important;
+  background-color: #595959;
   text-align: center;
 }
 
@@ -146,4 +147,11 @@ footer a {
 }
 footer a:hover {
   color: #4d6aff !important; /* Customize the hover color */
+}
+
+nav {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #595959 !important;
+  background-color: #595959 !important;
 }
