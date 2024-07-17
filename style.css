@@ -145,5 +145,5 @@ footer a {
   transition: color 0.3s;
 }
 footer a:hover {
-  color: #ff6347; /* Customize the hover color */
+  color: #4d6aff !important; /* Customize the hover color */
 }
