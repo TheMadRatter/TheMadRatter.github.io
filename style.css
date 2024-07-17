@@ -133,3 +133,17 @@ p {
 .NyaaSec{
   color: #d4d4d4;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer h4 {
+  margin-bottom: 20px;
+}
+footer a {
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #ff6347; /* Customize the hover color */
+}
