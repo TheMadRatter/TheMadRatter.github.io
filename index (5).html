@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nyaasec</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (optional) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="nyaa.png" alt="Logo" width="60" height="60" class="brand-logo">
+            <div class="NyaaSec">NyaaSec</div> <p class="brand-margin"></p>
+          </a>
+        </div>
+        <div class="d-flex flex-grow-1 content-center">
+          <div class="dropdown me-2">
+            <button class="btn dropdown-toggle custom-dropdown-btn" type="button" id="companyDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </button>
+            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="companyDropdown">
+              <li><a class="dropdown-item custom-dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="aboutUs.html">About Us</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="dropdown me-2">
+            <button class="btn dropdown-toggle custom-dropdown-btn" type="button" id="productsDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </button>
+            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item custom-dropdown-item" href="projects.html">Projects</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle custom-dropdown-btn" type="button" id="supportDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Support
+            </button>
+            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="supportDropdown">
+              <li><a class="dropdown-item custom-dropdown-item" href="projects.html">Documentation</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Main content here -->
+    <section class="intro">
+    </section>
+    <section class="overview">
+    </section>
+    <button type="button" class="btn btn-dark" id="back-to-top">Back to Top</button>
+    <script>
+      const backButton = document.getElementById("back-to-top");
+      backButton.addEventListener("click", function () {
+        window.scrollTo({top: 0, behavior: "smooth"});
+      });
+    </script>
+  </main>
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

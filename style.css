@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #808080;
+  color: #808080;
+  padding: 0px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.right-float {
+  float: right;
+  margin-left: 20px;
+  max-width: 420px;
+  height: auto;
+}
+
+.right-float-proj {
+  float: right;
+  margin-left: 20px;
+  margin-top: 45px;
+  max-width: 420px;
+  height: auto;
+}
+
+.intro, .welcome-to-projects, .finite-abstract-algebra, .crypto-demo, .overview {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 890px;
+  width: 100%;
+  margin: 20px 20%;
+  overflow: auto;
+  text-align: justify;
+  text-justify: space-evenly;
+  hyphens: auto;
+}
+
+h2 {
+  text-align: left;
+  margin-top: 0;
+}
+
+h3 .date {
+  font-size: 0.8em;
+  color: #666;
+  margin-left: 10px;
+}
+
+h2 .algebra-button {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 0px 0px;
+  margin-left: 70%;
+  background-color: indigo;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h2 .algebra-button:hover {
+  background-color: #5229F7;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 940px) {
+  .intro, .welcome-to-projects, .finite-abstract-algebra, .crypto-demo, .overview {
+    width: 890px;
+  }
+}
+
+/* Custom styles for dropdown buttons */
+.custom-dropdown-btn {
+  background-color: #007bff ; /* Change this to your desired background color */
+  color: #d4d4d4 !important; /* Change this to your desired text color */
+  border: none !important; /* Remove border */
+}
+
+.custom-dropdown-btn:hover,
+.custom-dropdown-btn:focus {
+  background-color: #0056b3 ; /* Change this to your desired hover/focus color */
+  color: #cb0101 !important; /* Ensure text color stays white on hover/focus */
+}
+
+/* Custom styles for dropdown menu */
+.custom-dropdown-menu {
+  background-color: #f8f9fa; /* Change this to your desired background color */
+}
+
+/* Custom styles for dropdown menu items */
+.custom-dropdown-item {
+  color: #000; /* Change this to your desired text color */
+}
+
+.custom-dropdown-item:hover,
+.custom-dropdown-item:focus {
+  background-color: #007bff; /* Change this to your desired hover/focus color */
+   /* Change this to your desired hover/focus text color */
+}
+
+/* Add fractional margins to both left and right of the image */
+.brand-logo {
+  margin-left: 20vw; /* 2% of the viewport width on the left */
+  margin-right: 0.5vw; /* 2% of the viewport width on the right */
+}
+
+.brand-margin {
+  margin-left: 25vw; /* 2% of the viewport width on the left */
+  margin-right: 0.5vw; /* 2% of the viewport width on the right */
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  background-color: #595959
+}
+
+.NyaaSec{
+  color: #d4d4d4;
+}
