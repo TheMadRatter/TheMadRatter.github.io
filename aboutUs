@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - NyaaSec</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (optional) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!--Font awesome for icons-->
+  <script src="https://kit.fontawesome.com/259dbc7eb6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="nyaa.png" alt="Logo" width="60" height="60" class="brand-logo">
+            <div class="NyaaSec">NyaaSec</div> <p class="brand-margin"></p>
+          </a>
+        </div>
+        <div class="d-flex flex-grow-1 content-center">
+          <div class="dropdown me-2">
+            <button class="btn dropdown-toggle custom-dropdown-btn" type="button" id="companyDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </button>
+            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="companyDropdown">
+              <li><a class="dropdown-item custom-dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="aboutUs.html">About Us</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="dropdown me-2">
+            <button class="btn dropdown-toggle custom-dropdown-btn" type="button" id="productsDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </button>
+            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item custom-dropdown-item" href="projects.html">Projects</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle custom-dropdown-btn" type="button" id="supportDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Support
+            </button>
+            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="supportDropdown">
+              <li><a class="dropdown-item custom-dropdown-item" href="projects.html">Documentation</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="#">Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <h1>About Us</h1>
+      <section class="intro">
+        <p>Welcome to NyaaSec! We are a forward-thinking company dedicated to providing innovative solutions in the tech industry. Our mission is to drive progress through cutting-edge technology and unparalleled customer service.</p>
+      </section>
+      <section class="team">
+        <h2>Our Team</h2>
+        <p>At NyaaSec, we believe that our strength lies in our team. Our talented professionals come from diverse backgrounds, bringing unique perspectives and expertise to the table.</p>
+      </section>
+      <section class="mission">
+        <h2>Our Mission</h2>
+        <p>Our mission is to empower businesses and individuals by providing the tools and services they need to succeed in the digital age. We strive to deliver high-quality products that exceed our customers' expectations.</p>
+      </section>
+      <section class="values">
+        <h2>Our Values</h2>
+        <ul>
+          <li><strong>Innovation:</strong> We are committed to staying at the forefront of technology and continuously improving our offerings.</li>
+          <li><strong>Integrity:</strong> We conduct our business with honesty and transparency, building trust with our customers and partners.</li>
+          <li><strong>Excellence:</strong> We aim for the highest standards in everything we do, from product development to customer support.</li>
+        </ul>
+      </section>
+      <section class="history">
+        <h2>Our History</h2>
+        <p>NyaaSec was founded with the vision of making technology more accessible and beneficial for everyone. Over the years, we have grown and evolved, but our commitment to our core values remains unchanged.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="bg-dark text-white mt-5">
+    <div class="container">
+      <div class="row text-center py-4">
+        <div class="col-md-12">
+          <h4>Follow Us</h4>
+          <a href="https://discord.gg/vy9ccqUaqH" class="text-white mx-2" target="_blank">
+            <i class="fa-brands fa-discord fa-2x"></i>
+          </a>
+          <a href="https://x.com/NyaaSec" class="text-white mx-2" target="_blank">
+            <i class="fa-brands fa-x-twitter fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
