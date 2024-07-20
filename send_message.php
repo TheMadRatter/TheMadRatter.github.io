@@ -4,14 +4,14 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Verify reCAPTCHA
+    // Verify reCAPTCHA v3
     $recaptcha_secret = "6LeVNhQqAAAAANtIxftQNWdZI_Xb4AC1iMvd3Ksp";
     $recaptcha_response = $_POST['g-recaptcha-response'];
 
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptcha_secret&response=$recaptcha_response");
     $responseKeys = json_decode($response, true);
 
-    if (intval($responseKeys["success"]) !== 1) {
+    if (intval($responseKeys["success"]) !== 1 || $responseKeys["score"] < 0.5) {
         echo "Please complete the CAPTCHA.";
         exit;
     }
