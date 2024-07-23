@@ -116,13 +116,13 @@ p {
 
 /* Add fractional margins to both left and right of the image */
 .brand-logo {
-  margin-left: 33vw; /* 33% of the viewport width on the left */
-  margin-right: 0.5vw; /* 0.5% of the viewport width on the right */
+  margin-left: 31vw; /* 2% of the viewport width on the left */
+  margin-right: 0.5vw; /* 2% of the viewport width on the right */
 }
 
 .brand-margin {
-  margin-left: 25vw; /* 25% of the viewport width on the left */
-  margin-right: 0.5vw; /* 0.5% of the viewport width on the right */
+  margin-left: 21vw; /* 2% of the viewport width on the left */
+  margin-right: 0.5vw; /* 2% of the viewport width on the right */
 }
 
 .container-fluid {
