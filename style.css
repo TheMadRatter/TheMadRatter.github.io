@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -34,7 +35,11 @@ main {
   height: auto;
 }
 
-.intro, .welcome-to-projects, .finite-abstract-algebra, .crypto-demo, .overview {
+.intro,
+.welcome-to-projects,
+.finite-abstract-algebra,
+.crypto-demo,
+.overview {
   background-color: #f7f7f7;
   padding: 20px;
   border: 1px solid #ddd;
@@ -80,49 +85,66 @@ p {
 }
 
 @media (min-width: 940px) {
-  .intro, .welcome-to-projects, .finite-abstract-algebra, .crypto-demo, .overview {
+
+  .intro,
+  .welcome-to-projects,
+  .finite-abstract-algebra,
+  .crypto-demo,
+  .overview {
     width: 890px;
   }
 }
 
 /* Custom styles for dropdown buttons */
 .custom-dropdown-btn {
-  background-color: #007bff ; /* Change this to your desired background color */
-  color: #d4d4d4 !important; /* Change this to your desired text color */
-  border: none !important; /* Remove border */
+  background-color: #007bff;
+  /* Change this to your desired background color */
+  color: #d4d4d4 !important;
+  /* Change this to your desired text color */
+  border: none !important;
+  /* Remove border */
 }
 
 .custom-dropdown-btn:hover,
 .custom-dropdown-btn:focus {
-  background-color: #0056b3 ; /* Change this to your desired hover/focus color */
-  color: #cb0101 !important; /* Ensure text color stays white on hover/focus */
+  background-color: #0056b3;
+  /* Change this to your desired hover/focus color */
+  color: #cb0101 !important;
+  /* Ensure text color stays white on hover/focus */
 }
 
 /* Custom styles for dropdown menu */
 .custom-dropdown-menu {
-  background-color: #f8f9fa; /* Change this to your desired background color */
+  background-color: #f8f9fa;
+  /* Change this to your desired background color */
 }
 
 /* Custom styles for dropdown menu items */
 .custom-dropdown-item {
-  color: #000; /* Change this to your desired text color */
+  color: #000;
+  /* Change this to your desired text color */
 }
 
 .custom-dropdown-item:hover,
 .custom-dropdown-item:focus {
-  background-color: #007bff; /* Change this to your desired hover/focus color */
-   /* Change this to your desired hover/focus text color */
+  background-color: #007bff;
+  /* Change this to your desired hover/focus color */
+  /* Change this to your desired hover/focus text color */
 }
 
 /* Add fractional margins to both left and right of the image */
 .brand-logo {
-  margin-left: 31vw !important; /* 2% of the viewport width on the left */
-  margin-right: 0.5vw; /* 2% of the viewport width on the right */
+  margin-left: 31vw;
+  /* 2% of the viewport width on the left */
+  margin-right: 0.5vw;
+  /* 2% of the viewport width on the right */
 }
 
 .brand-margin {
-  margin-left: 21vw !important; /* 2% of the viewport width on the left */
-  margin-right: 0.5vw; /* 2% of the viewport width on the right */
+  margin-left: 12vw;
+  /* 2% of the viewport width on the left */
+  margin-right: 0.5vw;
+  /* 2% of the viewport width on the right */
 }
 
 .container-fluid {
@@ -131,22 +153,27 @@ p {
   background-color: #595959
 }
 
-.NyaaSec{
+.NyaaSec {
   color: #d4d4d4;
 }
+
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
 footer h4 {
   margin-bottom: 20px;
 }
+
 footer a {
   transition: color 0.3s;
 }
+
 footer a:hover {
-  color: #4d6aff !important; /* Customize the hover color */
+  color: #4d6aff !important;
+  /* Customize the hover color */
 }
 
 nav {
