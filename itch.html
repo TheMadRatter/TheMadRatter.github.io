@@ -33,49 +33,8 @@
       font-size: 18px;
       margin-bottom: 25px;
     }
-    .published-links {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-
-    /* Itch.io Button */
-    .itch-link {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      background-color: #333;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: bold;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease-in-out;
-    }
-    .itch-link:hover {
-      background-color: #fa5c5c; /* Itch.io's red */
-    }
-    .itch-logo {
-      width: 40px;
-      height: 40px;
-    }
-    /* Wargame Vault Button */
-    .wgv-link {
-      display: inline-block;
-      background-color: #555;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: bold;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease-in-out;
-    }
-    .wgv-link:hover {
-      background-color: #777;
+    .essays-note {
+      margin-top: 28px;
     }
   </style>
 </head>
@@ -118,8 +77,8 @@
               Game Design
             </button>
             <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="gameDesignDropdown">
-              <li><a class="dropdown-item custom-dropdown-item" href="itch.html">Itch.io</a></li>
-              <li><a class="dropdown-item custom-dropdown-item" href="projects.html">WIP Projects</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="itch.html">Published Work</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="projects.html">Game Systems</a></li>
             </ul>
           </div>
 
@@ -130,7 +89,7 @@
               Software
             </button>
             <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="compsciDropdown">
-              <li><a class="dropdown-item custom-dropdown-item" href="compsciProjects.html">Projects</a></li>
+              <li><a class="dropdown-item custom-dropdown-item" href="compsciProjects.html">ArtificeX</a></li>
             </ul>
           </div>
         </div>
@@ -146,22 +105,12 @@
         <h1>My Published Work</h1>
       </div>
       <p class="published-description">
-        Here are my officially published games and projects. You can find my digital releases on 
-        <strong>Itch.io</strong> and my tabletop projects on <strong>Wargame Vault</strong>.
+        Download Cut &amp; Run right here (without a DM section or monster manual):
       </p>
-
-      <div class="published-links">
-        <!-- Itch.io Button -->
-        <a href="https://man-ratt.itch.io/" target="_blank" rel="noopener noreferrer" class="itch-link">
-          <img src="https://static.itch.io/images/itchio-textless-white.svg" class="itch-logo" alt="Itch.io Logo">
-          Visit My Itch.io
-        </a>
-
-        <!-- Wargame Vault Button -->
-        <a href="https://www.wargamevault.com/browse/pub/29426/Man-Ratt" target="_blank" rel="noopener noreferrer" class="wgv-link">
-          Visit My Wargame Vault
-        </a>
-      </div>
+      <p>
+        <a href="Cut_and_Run.pdf" download class="btn btn-outline-primary">Cut &amp; Run</a>
+      </p>
+      <p class="essays-note">Essays to come about the folly of TTRPGs which explain why I've stepped away from the medium.</p>
     </div>
 
   </main>
